@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page2",
-    "slug": "page2",
+    "name": "MovieClicked",
+    "slug": "movieclicked",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 440,
+          "bottomRow": 1020,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -28,15 +28,16 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page2",
+        "id": "MovieClicked",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6625ab67641e7e35f756a0d3_6625ec98d80c6a2df405f92e"
+  "gitSyncId": "6625ab67641e7e35f756a0d3_6625f3e19092cb02bc8c102c"
 }

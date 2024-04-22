@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page3",
-    "slug": "page3",
+    "name": "Bookings",
+    "slug": "bookings",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 580,
+          "bottomRow": 550,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -28,15 +28,16 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page3",
+        "id": "Bookings",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6625ab67641e7e35f756a0d3_6625ef9e7fcf650e70393f9f"
+  "gitSyncId": "6625ab67641e7e35f756a0d3_6625f4989092cb02bc8c110a"
 }

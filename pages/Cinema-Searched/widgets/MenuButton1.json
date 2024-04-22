@@ -23,7 +23,7 @@
     "isDisabled": false,
     "key": "uusuvav9tx",
     "isDeprecated": false,
-    "rightColumn": 8,
+    "rightColumn": 17,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
     "iconName": "menu-closed",
     "menuVariant": "PRIMARY",
@@ -55,7 +55,7 @@
         }
     },
     "isVisible": true,
-    "label": "Menu",
+    "label": "Back",
     "version": 1,
     "parentId": "0",
     "tags": ["Buttons"],

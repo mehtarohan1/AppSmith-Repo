@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Home",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -108,7 +108,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-22T06:38:42Z"
   },
-  "id": "Page1_FetchMoviesByRating",
+  "id": "Home_FetchMoviesByRating",
   "deleted": false,
   "gitSyncId": "6625f88f2f153f1253232073_662605f27fcf650e7039404c"
 }

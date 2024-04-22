@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page4",
-    "slug": "page4",
+    "name": "Cinema-Searched",
+    "slug": "cinema-searched",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 930,
+          "bottomRow": 580,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -28,15 +28,16 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page4",
+        "id": "Cinema-Searched",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6625ab67641e7e35f756a0d3_6625f210641e7e35f756a277"
+  "gitSyncId": "6625ab67641e7e35f756a0d3_6625ef9e7fcf650e70393f9f"
 }
