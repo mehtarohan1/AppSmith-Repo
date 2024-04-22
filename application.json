@@ -36,7 +36,7 @@
   "color": "#EAEDFB",
   "icon": "team",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "MOBILE"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
