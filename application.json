@@ -1,27 +1,27 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home",
       "isDefault": true
     },
     {
-      "id": "Page2",
+      "id": "Cinemas",
       "isDefault": false
     },
     {
-      "id": "Page3",
+      "id": "Cinema-Searched",
       "isDefault": false
     },
     {
-      "id": "Page4",
+      "id": "Movies",
       "isDefault": false
     },
     {
-      "id": "Page5",
+      "id": "MovieClicked",
       "isDefault": false
     },
     {
-      "id": "Page6",
+      "id": "Bookings",
       "isDefault": false
     }
   ],
@@ -36,7 +36,10 @@
   "color": "#EAEDFB",
   "icon": "team",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "MOBILE"
+  },
+  "publishedAppLayout": {
+    "type": "MOBILE"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
