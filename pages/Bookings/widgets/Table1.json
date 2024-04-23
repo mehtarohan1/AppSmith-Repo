@@ -12,12 +12,12 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tableData"},
         {"key": "primaryColumns.BookingID.computedValue"},
         {"key": "primaryColumns.Price.computedValue"},
         {"key": "primaryColumns.SeatID.computedValue"},
         {"key": "primaryColumns.ShowingID.computedValue"},
-        {"key": "primaryColumns.UserID.computedValue"}
+        {"key": "primaryColumns.UserID.computedValue"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -248,7 +248,7 @@
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "tgkms0qw90",
     "minWidth": 450,
-    "tableData": "{{getBooking.data}}",
+    "tableData": "{{getUsersBookings.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

@@ -17,21 +17,23 @@
     "groupButtons": {
         "groupButtonnkz3sxzvuv": {
             "itemType": "BUTTON",
+            "onClick": "{{navigateTo('Profile', {}, 'SAME_WINDOW');}}",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "person",
             "widgetId": "dgoo4216m7",
             "menuItems": {},
-            "index": 3,
+            "index": 1,
             "label": "Profile",
             "isVisible": true,
-            "buttonType": "SIMPLE",
+            "buttonType": "MENU",
             "buttonVariant": "filled",
             "id": "groupButtonnkz3sxzvuv",
             "isDisabled": false,
             "placement": "CENTER"
         },
         "groupButton3": {
-            "buttonType": "MENU",
+            "onClick": "{{navigateTo('Bookings', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
             "iconName": "book",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
@@ -71,35 +73,9 @@
                     "isDisabled": false
                 }
             },
-            "index": 2,
+            "index": 0,
             "label": "Bookings",
             "id": "groupButton3",
-            "placement": "CENTER",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "groupButton1": {
-            "buttonType": "SIMPLE",
-            "iconName": "filter",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
-            "menuItems": {},
-            "index": 0,
-            "label": "Filters",
-            "id": "groupButton1",
-            "placement": "CENTER",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "groupButton2": {
-            "buttonType": "SIMPLE",
-            "iconName": "search",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
-            "menuItems": {},
-            "index": 1,
-            "label": "Search",
-            "id": "groupButton2",
             "placement": "CENTER",
             "isVisible": true,
             "isDisabled": false
@@ -109,12 +85,13 @@
     "mobileRightColumn": 34,
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton3.onClick"},
+        {"key": "groupButtons.groupButtonnkz3sxzvuv.onClick"}
+    ],
     "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "groupButtons.groupButton1.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"},
         {"key": "groupButtons.groupButton3.buttonColor"},
         {"key": "groupButtons.groupButtonnkz3sxzvuv.buttonColor"}
     ],

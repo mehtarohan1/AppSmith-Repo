@@ -1,0 +1,6 @@
+{
+	UserID: {{Input1.text}},
+	ShowingID: {{Input2.text}},
+	SeatID: {{Input3.text}},
+	Price: {{Input4.text}}
+}

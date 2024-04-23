@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getBooking",
+    "name": "getUsersBookings",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/b/bookings/1"
+        "url": "web:4000/b/bookings/user/1"
       },
       "invalids": [],
       "messages": [],
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-23T06:01:50Z"
+    "createdAt": "2024-04-23T08:07:11Z"
   },
-  "id": "Bookings_getBooking",
+  "id": "Bookings_getUsersBookings",
   "deleted": false,
-  "gitSyncId": "66270a825d11726eb2a66021_66274ece5d11726eb2a6606c"
+  "gitSyncId": "66270a825d11726eb2a66021_66276c2f5d11726eb2a66074"
 }
