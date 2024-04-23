@@ -42,20 +42,6 @@
             "isVisible": true,
             "isDisabled": false
         },
-        "groupButton1": {
-            "onClick": "",
-            "buttonType": "SIMPLE",
-            "iconName": "home",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
-            "menuItems": {},
-            "index": 0,
-            "label": "Home",
-            "id": "groupButton1",
-            "placement": "CENTER",
-            "isVisible": true,
-            "isDisabled": false
-        },
         "groupButtonzr4vrk2kfx": {
             "itemType": "BUTTON",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -70,6 +56,20 @@
             "id": "groupButtonzr4vrk2kfx",
             "isDisabled": false,
             "placement": "CENTER"
+        },
+        "groupButton1": {
+            "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
+            "iconName": "home",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 0,
+            "label": "Home",
+            "id": "groupButton1",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
         },
         "groupButton2": {
             "onClick": "{{navigateTo('Cinemas', {}, 'SAME_WINDOW');}}",
