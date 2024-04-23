@@ -25,7 +25,7 @@
             "index": 1,
             "label": "Profile",
             "isVisible": true,
-            "buttonType": "MENU",
+            "buttonType": "SIMPLE",
             "buttonVariant": "filled",
             "id": "groupButtonnkz3sxzvuv",
             "isDisabled": false,

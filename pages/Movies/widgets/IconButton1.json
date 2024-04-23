@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 3,
+    "leftColumn": 5,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -28,10 +28,10 @@
     "isDisabled": false,
     "key": "tn4yf2n30t",
     "isDeprecated": false,
-    "rightColumn": 7,
+    "rightColumn": 12,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
     "iconName": "home",
-    "widgetId": "6nc59wq87m",
+    "widgetId": "7p1b4y621r",
     "minWidth": 50,
     "isVisible": true,
     "version": 1,

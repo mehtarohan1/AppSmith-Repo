@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Movies",
-    "slug": "movies",
+    "name": "Community",
+    "slug": "community",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 660,
+          "bottomRow": 940,
           "containerStyle": "none",
-          "snapRows": 58,
+          "snapRows": 80,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 600,
+          "minHeight": 820,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Movies_getMovies",
-              "name": "getMovies",
+              "id": "Community_getAllPosts",
+              "name": "getAllPosts",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Movies",
+        "id": "Community",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6625ab67641e7e35f756a0d3_6625f210641e7e35f756a277"
+  "gitSyncId": "66270a825d11726eb2a66021_66277b9f5d11726eb2a6608b"
 }

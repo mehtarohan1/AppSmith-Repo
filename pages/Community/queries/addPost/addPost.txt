@@ -1,0 +1,5 @@
+{
+	Content:{{Input2.text}},
+	UserID:{{Input1.text}},
+	Topic:{{Input3.text}}
+}

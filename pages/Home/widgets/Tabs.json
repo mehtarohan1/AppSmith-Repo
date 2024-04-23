@@ -58,6 +58,7 @@
         },
         "groupButtonzr4vrk2kfx": {
             "itemType": "BUTTON",
+            "onClick": "{{navigateTo('Community', {}, 'SAME_WINDOW');}}",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "chat",
             "widgetId": "dc94ed42u7",
@@ -93,7 +94,8 @@
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton1.onClick"},
         {"key": "groupButtons.groupButton2.onClick"},
-        {"key": "groupButtons.groupButton3.onClick"}
+        {"key": "groupButtons.groupButton3.onClick"},
+        {"key": "groupButtons.groupButtonzr4vrk2kfx.onClick"}
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
