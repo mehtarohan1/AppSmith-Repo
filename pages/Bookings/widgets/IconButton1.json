@@ -3,6 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 6,
     "widgetName": "IconButton1",
+    "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
@@ -18,8 +19,8 @@
     "mobileRightColumn": 48,
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 43,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -27,7 +28,7 @@
     "isDisabled": false,
     "key": "tn4yf2n30t",
     "isDeprecated": false,
-    "rightColumn": 47,
+    "rightColumn": 6,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
     "iconName": "home",
     "widgetId": "z6a976cjge",
