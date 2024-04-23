@@ -17,7 +17,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "listData"},
         {"key": "backgroundColor"}
     ],
     "leftColumn": 1,
@@ -90,7 +89,7 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List1",
-    "listData": "{{ FetchMoviesByRating.data }}\n",
+    "listData": "",
     "dynamicPropertyPathList": [{"key": "primaryKeys"}],
     "displayName": "List",
     "bottomRow": 71,
