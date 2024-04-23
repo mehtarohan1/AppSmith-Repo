@@ -23,6 +23,10 @@
     {
       "id": "Profile",
       "isDefault": false
+    },
+    {
+      "id": "Community",
+      "isDefault": false
     }
   ],
   "viewMode": false,
